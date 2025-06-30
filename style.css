@@ -1,0 +1,40 @@
+body {
+  background: #f9f9f9;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px 20px;
+}
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+h1 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+p {
+  color: #666;
+  margin-bottom: 20px;
+}
+.links a {
+  display: block;
+  margin: 10px auto;
+  padding: 12px;
+  width: 90%;
+  max-width: 400px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+.links a:hover {
+  background-color: #444;
+}
